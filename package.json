@@ -1,0 +1,25 @@
+{
+  "name": "sern-js-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "javacsript",
+    "sern",
+    "discord.js"
+  ],
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@sern/handler": "^1.0.0",
+    "discord.js": "^14.2.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.25"
+  },
+  "type": "module"
+}
